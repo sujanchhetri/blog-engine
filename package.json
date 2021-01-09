@@ -1,0 +1,38 @@
+{
+  "name": "blog-engine",
+  "version": "1.0.0",
+  "engines": {
+    "node": "15.1.0",
+    "npm": "7.0.8"
+  },
+  "description": "Blog-Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Sujan Chhetri",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-validator": "^6.5.0",
+    "formidable": "^1.2.2",
+    "google-auth-library": "^6.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "object-to-xml": "^2.0.0",
+    "shortid": "^2.2.15",
+    "slugify": "^1.4.0",
+    "string-strip-html": "^4.4.7",
+    "xml": "^1.0.1"
+  }
+}
