@@ -101,6 +101,7 @@ You can access the following endpoints on http://localhost:8000/api
 | put  | /user/unfollow     |
 
 <br/>
+
 ## Contributing
 
 There are two ways to contribute to this project. **submitting new features or fixing bugs** 
