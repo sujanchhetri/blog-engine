@@ -1,5 +1,7 @@
 const express = require("express");
 const router = express.Router();
+require('dotenv').config();
+
 const { contactForm, contactBlogAuthorForm } = require("../controllers/form");
 
 const { runValidation } = require("../validators");

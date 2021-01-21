@@ -2,8 +2,8 @@
   "name": "blog-engine",
   "version": "1.0.0",
   "engines": {
-    "node": "15.1.0",
-    "npm": "7.0.8"
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "description": "Blog-Engine",
   "main": "server.js",

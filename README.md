@@ -111,14 +111,19 @@ There are two ways to contribute to this project. **submitting new features or f
 
 Please contribute! There are plenty of work to do. To get started, you have to [fork](https://github.com/sujanchhetri/blog-engine/fork) this repo to your own GitHub account first. Then open up a terminal on your machine and enter the following commands:
 
+> Add the requirements in the .env file
+
 ```bash
 git clone https://github.com/<your user name>/blog-engine.git
 cd blog-engine
 npm install
 npm start
 ```
+or 
 
-> Add the requirements in the .env file
+```bash
+docker pull sujjjan/blog-engine
+```
 
 This will start the development server on `http://localhost:8000/`. This should reload automatically when you make changes to the code, but no code is perfect, so sometimes you may need to restart it. :)
 
