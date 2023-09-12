@@ -1,9 +1,9 @@
-document.createDocumentFragment(element);{
+{
   "name": "bloque",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "engines": {
-    "node": "14.15.4",
-    "npm": "6.14.10"
+    "node": "18.5.1",
+    "npm": "10.0.0"
   },
   "description": "Blog-Engine",
   "main": "server.js",
