@@ -11,7 +11,7 @@
     "start": "nodemon server.js"
   },
   "keywords": [],
-  "author": "Sujan Chhetri",
+  "author": "guekeren",
   "license": "MIT",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
