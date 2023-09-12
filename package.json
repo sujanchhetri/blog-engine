@@ -28,7 +28,6 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "mongoose": "^5.9.17",
-    "npobject-to-xml": "^2.0.0",
     "shortid": "^2.2.15",
     "slugify": "^1.6.6",
     "string-strip-html": "^4.5.1",
