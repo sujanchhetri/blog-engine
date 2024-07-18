@@ -3,26 +3,44 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsujanchhetri%2Fblog-engine&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
  <a href="https://nodejs.org/en/blog/release/v14.15.4/"><img alt="NodeJS" src="https://img.shields.io/badge/node-14.15.4-important?style=flat-square" /></a>
  <a href="https://www.npmjs.com/package/npm/v/6.14.10"><img alt="NPM" src="https://img.shields.io/badge/npm-6.14.10-61DAFB?style=flat-square" /></a>
-[![Dependency Status](https://img.shields.io/david/sujanchhetri/blog-engine.svg)](https://david-dm.org/sujanchhetri/blog-engine)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This repo consists of the backend for a blogging platform. Most of the features that are in a blog is available here.
+# About
 
-## Features
-- User Signup / Signin
-- JWT based Authentication System
-- Role Based Authorization System-user/admin
-- Blogs Search
-- Related Blogs
-- Categories
-- Tags
-- User Profile
-- Blog Author Private Contact Form
-- Multiple User Authorization System
-- Social Login with Google
-- Admin / User Dashboard privilage
-- Image Uploads
-- Load More Blogs
+Blogue is a production-ready, multi-user blogging platform built with the MERN (MongoDB, Express, React, Node.js) stack and Next.js. The platform focuses on providing an optimized user experience with server-side rendering (SSR) and static site generation (SSG) to ensure high performance and excellent SEO. With Blogue, users can create, manage, and share their blogs seamlessly. The application is designed to handle multiple users with different roles and provides a robust authentication system.
+Features
+
+    User Signup / Signin: New users can sign up and existing users can sign in to access the platform.
+    JWT based Authentication System: Secure authentication using JSON Web Tokens.
+    Role Based Authorization System: Differentiated access for users and admins.
+    Blogs Search: Search functionality to find blogs easily.
+    Related Blogs: Display related blogs to enhance content discovery.
+    Categories: Organize blogs into different categories.
+    Tags: Tagging system for better blog categorization.
+    User Profile: Personalized user profiles.
+    Blog Author Private Contact Form: Private contact form for users to contact blog authors.
+    Multiple User Authorization System: Support for multiple user roles and permissions.
+    Social Login with Google: Easy login using Google accounts.
+    Admin / User Dashboard Privilege: Separate dashboards for admins and users with respective privileges.
+    Image Uploads: Support for uploading images to blogs.
+    Load More Blogs: Pagination functionality to load more blogs.
+
+# Tech Stack
+
+    Frontend:
+        React.js
+        Next.js (for SSR and SSG)
+        HTML
+        CSS
+
+    Backend:
+        Node.js
+        Express.js
+        MongoDB
+
+    Authentication:
+        JWT (JSON Web Token)
+        Social Login (Google)
 
 
 ### Usage
